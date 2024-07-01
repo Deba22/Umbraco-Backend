@@ -22,7 +22,7 @@ jobs:
         - name: App Settings Variable Substitution
           uses: microsoft/variable-substitution@v1
           with:
-            files: 'Home/debasish.tech_WxwTmj4R/wwwroot/appsettings.json'
+            files: 'MyCollectionUmb/appsettings.json'
           env:
               Umbraco.CMS.DeliveryApi.ApiKey: ${{ secrets.UMBRACO_CMS_DELIVERYAPI_APIKEY }}
 
