@@ -8,6 +8,7 @@ env:
     SolutionName: ${{ secrets.SOLUTION_NAME }}
     BuildPlatform: Any CPU
     BuildConfiguration: Release
+    Umbraco.CMS.DeliveryApi.ApiKey: ${{ secrets.UMBRACO_CMS_DELIVERYAPI_APIKEY }}
 
 jobs:
   build:
