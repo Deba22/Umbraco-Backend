@@ -8,7 +8,6 @@ env:
     SolutionName: ${{ secrets.SOLUTION_NAME }}
     BuildPlatform: Any CPU
     BuildConfiguration: Release
-    DotNetRoot: ${{ secrets.DOTNET_ROOT }}
 
 jobs:
   build:
